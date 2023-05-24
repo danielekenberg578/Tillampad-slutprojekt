@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background-image: url("bakgrund.jpg");
+    background-size: 100%;
+}
+
+.disableBackground{
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    width: 6%;
+}
+
+.nav{
+    height: 10%;
+    margin-bottom: 2%;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 7vh;
+    padding: 10px 0;
+    
+    border-bottom: solid black;
+    
+}
+
+.result{
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 80%;
+    height: 10%;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 2%;
+    border-radius: 2vh;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 4vh;
+    border-style: solid;
+    border-color: black;
+}
+
+#copy { 
+    padding-left: 10px;
+    width: 5vW;
+}
+
+#reload {
+    width: 5vw;
+}
+
+
+.selection{
+    
+    margin: 0 auto;
+    height: 10%;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 2vh;
+    width: 80%;
+    height: 35%;
+    padding-top: 20px;  
+    padding-bottom: 30px;
+    font-size: 4vh;
+
+    border-style: solid;
+    border-color: black;
+
+}
+
+
+#smallCharactersCheckbox,
+#bigCharactersCheckbox,
+#numberCharactersCheckbox,
+#specialCharactersCheckbox {
+  width: 30px;
+  height: 30px;
+}
+
+#passwordLengthInput{
+    width: 70px;
+    height: 30px;
+  }

@@ -1,0 +1,38 @@
+@media only screen and (max-width: 600px) {
+  
+  .nav {
+    font-size: 6vh;
+  }
+
+  
+  .result {
+    width: 95%;
+    font-size: 2.5vh;
+  }
+
+  #copy { 
+    padding-left: 10px;
+    width: 10px;
+    height: 10px;
+    
+}
+
+#reload {
+    padding-right: 10px;
+    
+}
+
+  
+  .selection {
+    width: 95%;
+    height: 60%;
+    font-size: 2.5vh;
+  }
+
+  
+ 
+
+
+
+}
+
